@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/divider"
+    android:showDividers="middle">
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+
+        android:layout_height="75dp">
+       <LinearLayout
+           android:id="@+id/geri"
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:layout_alignParentLeft="true">
+           <ImageButton
+               android:id="@+id/Preferences_btn_back"
+                android:layout_gravity="center"
+               android:alpha="0.5"
+               android:background="@drawable/baseline_arrow_back_ios_black_18dp"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content">
+           </ImageButton>
+       </LinearLayout>
+
+
+
+        <TextView
+            android:id="@+id/tvsettings"
+            android:layout_toRightOf="@+id/geri"
+            android:layout_marginLeft="10dp"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Ayarlar"
+            android:layout_weight="1">
+        </TextView>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Varsayılan Hatırlatma Zamanı"/>
+        <Spinner
+            android:id="@+id/Preferences_spinner_notificationTime"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Varsayılan Hatırlatma Sıklığı"/>
+        <Spinner
+            android:id="@+id/Preferences_spinner_notificationRecurrence"
+            android:textAlignment="textEnd"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </Spinner>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Varsayılan Zil Sesi"/>
+        <Spinner
+            android:id="@+id/Preferences_spinner_notificationSound"
+            android:layout_weight="1"
+            android:textAlignment="textEnd"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+    <LinearLayout
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="Varsayılan Tema"/>
+            <Switch
+                android:id="@+id/Preferences_nightMode"
+                android:layout_alignParentRight= "true"
+                android:text="Gece Modu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

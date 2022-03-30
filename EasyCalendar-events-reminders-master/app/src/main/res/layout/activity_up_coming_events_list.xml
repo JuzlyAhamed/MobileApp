@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    android:background="@color/colorAccent"
+    tools:context=".UpComingEventsList">
+
+    <RelativeLayout
+        android:padding="5dp"
+        android:background="@color/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <LinearLayout
+            android:layout_marginLeft="20dp"
+            android:id="@+id/divide_upcomings"
+            android:padding="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="60dp"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/btn_MainMenu"
+                android:visibility="visible"
+                android:layout_gravity="center"
+                android:alpha="0.65"
+                android:background="@drawable/outline_calendar_today_black_18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </ImageButton>
+            <TextView
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Takvim"
+                android:layout_weight="1">
+            </TextView>
+
+
+        </LinearLayout>
+        <Spinner
+            android:id="@+id/spinner_showingInterval"
+            android:layout_toRightOf="@id/divide_upcomings"
+            android:layout_marginVertical="5dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </Spinner>
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:background="@color/colorPrimaryDark"
+        android:paddingTop="15dp"
+        android:id="@+id/recyclerView_UpcomingEvents"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+        android:id="@+id/myTextView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></TextView>
+</LinearLayout>

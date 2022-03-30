@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:statusBarColor">@color/md_black_1000</item>
+    </style>
+
+    <style name="ButtonStyle123" parent="android:style/Widget.Button">
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/md_white_1000</item>
+        <item name="android:backgroundTint">@color/colorAccent</item>
+    </style>
+
+</resources>

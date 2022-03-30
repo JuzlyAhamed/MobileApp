@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">EasyCalendar</string>
+
+    <string-array name="recurranceOptions_array">
+        <item>Tekrarlama Yok</item>
+        <item>Her Gün</item>
+        <item>Haftada bir kere</item>
+        <item>Ayda bir kere</item>
+        <item>Yılda bir kere</item>
+    </string-array>
+
+    <string-array name="categoryOptions_array">
+        <item>Aktivite</item>
+        <item>Özel Gün</item>
+        <item>Buluşma</item>
+        <item>Toplantı</item>
+        <item>Konser</item>
+        <item>Gösteri</item>
+        <item>Bayram</item>
+    </string-array>
+
+    <string-array name="notificationOptions_array">
+        <item>Bildirim Yok</item>
+        <item>10 dk önce</item>
+        <item>30 dk önce</item>
+        <item>1 saat önce</item>
+        <item>1 gün önce</item>
+        <item>Tam vaktinde</item>
+    </string-array>
+
+    <string-array name="ringtones_array">
+        <item>Tone 1</item>
+        <item>Tone 2</item>
+        <item>Tone 3</item>
+        <item>Tone 4</item>
+        <item>Tone 5</item>
+    </string-array>
+    <string-array name="months">
+        <item>Jan</item>
+        <item>Feb</item>
+        <item>Mar</item>
+        <item>Apr</item>
+        <item>May</item>
+        <item>Jun</item>
+        <item>Jul</item>
+        <item>Aug</item>
+        <item>Sep</item>
+        <item>Oct</item>
+        <item>Nov</item>
+        <item>Dec</item>
+    </string-array>
+
+
+    <string-array name="weekDays">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="intervals_array">
+        <item>Tüm Zamanlar</item>
+        <item>Bu Yıl</item>
+        <item>Bu Ay</item>
+    </string-array>
+</resources>
+
